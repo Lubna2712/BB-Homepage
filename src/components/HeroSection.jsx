@@ -4,12 +4,12 @@ import heroImage from '../images/hero.png'
 export default function Hero() {
   return (
     <div className="relative max-w-full overflow-hidden">
-      <section className="bg-white md:py-12 lg:py-32 flex container mx-auto px-6 heroSection md:overflow-hidden items-center">
+      <section className="heroWrapper bg-white md:py-12 lg:py-32 flex container mx-auto px-6 md:overflow-hidden items-center">
         <div className="max-w-2xl lg:max-w-4xl xl:max-w-full flex md:items-center container mx-auto md:justify-between flex-col-reverse md:flex-row gap-0 lg:gap-12 xl:gap-8">
           <div className="heroTextContainer md:w-3/6 px-4 md:px-0 pt-12 md:pt-0 pb-16 sm:pb-0">
             <h2 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-9 lg:leading-10 xl:leading-12 text-gray-900 lg:h-24 xl:h-32  lg:flex lg:flex-col lg:justify-between">
               Data to enrich your
-              <span className="text-transparent bg-clip-text linearGradient">
+              <span className="text-transparent clip-text linearGradient">
                 online business
               </span>
             </h2>

@@ -82,7 +82,7 @@ function Card({ image, horizontal, title, desc }) {
 export default function Features() {
   return (
     <section className="featureSection bg-gray-900 py-16 sm:py-32 xl:py-48 relative px-5 sm:px-0">
-      <p className="text-lg mb-4 leading-tight font-serif font-bold uppercase text-transparent bg-clip-text text-center linearGradient">
+      <p className="text-lg mb-4 leading-tight font-serif font-bold uppercase text-transparent clip-text text-center linearGradient">
         Features
       </p>
       <h3 className="text-center mb-10 font-extrabold text-2xl sm:text-3xl xl:text-5.5xl text-white">
@@ -135,7 +135,7 @@ export default function Features() {
               >
                 More Updates, Features &amp; Articles are here.
               </h4>
-              <p className="text-base font-semibold font-serif text-center leading-5 text-transparent bg-clip-text linearGradient">
+              <p className="text-base font-semibold font-serif text-center leading-5 text-transparent clip-text linearGradient">
                 <a href="#" title="Learn More">
                   Learn More
                 </a>
