@@ -110,7 +110,7 @@ export default function Pricing() {
             title="Get a free sample"
             className="text-sm leading-5 font-medium text-gray-900 font-sans"
           >
-            Get a free sample{" "}
+            Get a free sample
             <span className="font-normal text-gray-500 ">(20MB)</span>
           </a>
         </div>
