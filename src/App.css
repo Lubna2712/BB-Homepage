@@ -37,6 +37,17 @@ body {
 .footerWrapper {
   padding: 50px 15px 0px;
 }
+.faqSubTitle.show-description {
+  height: auto;
+}
+.faqTitle:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+.faqSubTitle {
+  height: 0;
+  overflow: hidden;
+  transition: all 200ms ease-out;
+}
 @media screen and (min-width: 768px) {
   .heroWrapper:after {
     content: "";
@@ -83,9 +94,6 @@ body {
   .footerWrapper > div {
     max-width: 1216px;
   }
-}
-
-@media screen and (min-width: 1280px) {
   .featureSection {
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
   }
