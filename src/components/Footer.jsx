@@ -158,7 +158,7 @@ export default function Footer() {
                 Making the world a better place through constructing elegant
                 hierarchies.
               </p>
-              <ul className="flex gap-5 mb-4">
+              <ul className="flex gap-5 mb-8 lg:mb-0 xl:mb-0">
                 {socials.map((l, key) => (
                   <li className="mr-2" key={`social-link-${key}`}>
                     <a href={l.href} title={l.name}>

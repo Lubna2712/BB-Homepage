@@ -9,7 +9,7 @@ export default function Hero() {
           <div className="heroTextContainer md:w-3/6 md:px-0 pt-12 md:pt-0 pb-16 sm:pb-0">
             <h2 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-9 lg:leading-10 xl:leading-12 text-gray-900 lg:h-24 xl:h-32  lg:flex lg:flex-col lg:justify-between">
               Data to enrich your
-              <span className="text-transparent clip-text gradient">
+              <span className="text-transparent clip-text gradient ml-2">
                 online business
               </span>
             </h2>
