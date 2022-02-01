@@ -31,16 +31,16 @@ export default function Notification() {
   return (
     <section className="statusWrapper bg-white container mx-auto py-16 md:pt-16 md:pb-24 mt-2 lg:max-w-4xl xl:max-w-screen-xl relative px-4 md:px-0">
       <div className="flex flex-col-reverse md:flex-row md:justify-between items-center">
-        <div className="flex flex-col lg:items-start xl:items-center lg:justify-start xl:justify-center md:w-full lg:w-3/5 xl:w-9/12">
+        <div className="flex flex-col lg:items-start xl:items-center lg:justify-start xl:justify-center md:w-full lg:w-3/5 xl:w-9/12 mt-8 lg:mt-0 xl:mt-0">
           {notifications.map((notification) => (
-            <div className="flex items-center bg-white md:p-2 lg:p-4 xl:p-4 justify-between rounded-lg mb-2 shadow-md z-10 md:w-full lg:w-11/12 xl:w-9/12">
+            <div className="flex items-center bg-white p-4 justify-between rounded-lg mb-2 shadow-md z-10 md:w-full lg:w-11/12 xl:w-9/12">
               <div className="flex items-center">
                 <img
                   src={`${notification.image}`}
                   alt="person image"
                   className=""
                 />
-                <div className="md:ml-4 lg:ml-4 xl:ml-8">
+                <div className="ml-4 md:ml-4 lg:ml-4 xl:ml-8">
                   <h4 className="text-sm leading-5 font-sans font-medium text-gray-900">
                     {notification.name}
                   </h4>
