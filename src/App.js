@@ -5,7 +5,7 @@ import FeaturesSection from './components/FeaturesSection'
 import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
-import Status from './components/Status'
+import Notification from './components/Notification'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <HeroSection />
       <FeaturesSection />
-      <Status />
+      <Notification />
       <Pricing />
       <FAQ />
       <Footer />

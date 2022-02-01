@@ -27,7 +27,7 @@ const notifications = [
   },
 ]
 
-export default function Status() {
+export default function Notification() {
   return (
     <section className="statusWrapper bg-white container mx-auto py-16 md:pt-16 md:pb-24 mt-2 lg:max-w-4xl xl:max-w-screen-xl relative px-4 md:px-0">
       <div className="flex flex-col-reverse md:flex-row md:justify-between items-center">
