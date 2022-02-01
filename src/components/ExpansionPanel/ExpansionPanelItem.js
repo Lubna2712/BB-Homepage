@@ -1,6 +1,6 @@
 import React from "react";
 
-const ExpansionPanelItem = ({ showDescription, ariaExpanded, fontWeightBold, item, index, onClick }) => (
+const ExpansionPanelItem = ({ showDescription, ariaExpanded, item, index, onClick }) => (
   <div
     className="faqTitle py-6 cursor-pointer"
     key={item.index}

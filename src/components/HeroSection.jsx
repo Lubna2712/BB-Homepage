@@ -1,5 +1,5 @@
 import React from "react"
-import heroImage from '../images/hero.png'
+import heroImage from "../images/hero.png"
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
           <div className="heroTextContainer md:w-3/6 px-4 md:px-0 pt-12 md:pt-0 pb-16 sm:pb-0">
             <h2 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-9 lg:leading-10 xl:leading-12 text-gray-900 lg:h-24 xl:h-32  lg:flex lg:flex-col lg:justify-between">
               Data to enrich your
-              <span className="text-transparent clip-text linearGradient">
+              <span className="text-transparent clip-text gradient">
                 online business
               </span>
             </h2>
@@ -36,7 +36,7 @@ export default function Hero() {
                   >
                     Start free trial
                   </button>
-                  <div className="absolute heroButton z-0 linearGradient rounded-sm h-10"></div>
+                  <div className="absolute heroButton z-0 gradient rounded-sm h-10"></div>
                 </div>
               </div>
             </form>

@@ -41,7 +41,7 @@ function MembershipFeaturesListItem({ item }) {
 
 export default function Pricing() {
   return (
-    <section className="pricingSection py-12 md:py-24 bg-gray-100 px-4 mx-4 sm:px-0 sm:mx-0">
+    <section className="pricingWrapper py-12 md:py-24 bg-gray-100 px-4 mx-4 sm:px-0 sm:mx-0 relative z-10">
       <h3 className="text-center mb-4 px-12 sm:px-0 font-extrabold text-3xl lg:text-4xl xl:text-5xl leading-10 font-sans text-gray-900">
         Simple no-tricks pricing
       </h3>
@@ -63,10 +63,7 @@ export default function Pricing() {
             ratione.
           </p>
           <div className="flex items-center gap-4 mb-8">
-            <h6
-              className="text-sm font-semibold uppercase leading-5 tracking-wide text-indigo-600"
-              style={{ minWidth: "fit-content" }}
-            >
+            <h6 className="text-sm font-semibold uppercase leading-5 tracking-wide text-indigo-600 min-w-fit">
               What's Included
             </h6>
             <p className="border-t-2 border-gray-200 w-full"></p>
@@ -80,10 +77,7 @@ export default function Pricing() {
             ))}
           </ul>
         </div>
-        <div
-          className="bg-gray-25 md:bg-gray-100 flex items-center justify-center flex-col p-8 xl:p-12"
-          style={{ minWidth: 333 }}
-        >
+        <div className="bg-gray-25 md:bg-gray-100 flex items-center justify-center flex-col p-8 xl:p-12 min-w-333">
           <p className="text-lg leading-7 font-medium text-gray-900 font-sans mb-4">
             Pay once, own it forever
           </p>
