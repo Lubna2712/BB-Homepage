@@ -37,7 +37,7 @@ const questionsAnswers = [
 export default function FAQ() {
   return (
     <section className="faqSection py-12 bg-white sm:container xl:max-w-screen-md lg:max-w-4xl mx-4 sm:mx-auto">
-      <h3 className="mb-4 text-3xl lg:text-4xl xl:text-5xl text-center px-12 sm:px-0 pb-6 border-b-2 border-gray-200 font-extrabold leading-10 font-sans text-gray-900">
+      <h3 className="mb-4 text-3xl lg:text-4xl xl:text-5xl text-center px-6 md:px-6 lg:px-12 xl:px-0 sm:px-0 pb-6 border-b-2 border-gray-200 font-extrabold leading-10 font-sans text-gray-900">
         Frequently asked questions
       </h3>
       <ExpansionPanel questionsAnswers={questionsAnswers} key={"FAQ"} />

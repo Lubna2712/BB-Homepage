@@ -42,7 +42,7 @@ function MembershipFeaturesListItem({ item }) {
 export default function Pricing() {
   return (
     <section className="pricingWrapper py-12 md:py-24 bg-gray-100 px-4 mx-4 sm:px-0 sm:mx-0 relative z-10">
-      <h3 className="text-center mb-4 px-12 sm:px-0 font-extrabold text-3xl lg:text-4xl xl:text-5xl leading-10 font-sans text-gray-900">
+      <h3 className="text-center mb-4 px-4 md:px-4 lg:px-12 xl:px-12 font-extrabold text-3xl lg:text-4xl xl:text-5xl leading-10 font-sans text-gray-900">
         Simple no-tricks pricing
       </h3>
       <p className="text-lg lg:text-lg xl:text-2xl mb-8 lg:mb-12 xl:mb-10 leading-7 font-sans font-normal text-center text-gray-600">
@@ -53,7 +53,7 @@ export default function Pricing() {
         className="mx-auto flex flex-col md:flex-row rounded-md shadow-xl sm:rounded-lg md:max-w-2xl lg:max-w-4xl xl:max-w-screen-xl"
         style={{ maxWidth: "1298px !important" }}
       >
-        <div className="bg-white p-8 xl:p-12 col-span-2 w-full">
+        <div className="bg-white p-6 md:p-6 lg:p-12 xl:p-12 col-span-2 w-full">
           <h3 className="text-3xl mb-6 leading-8 font-sans font-extrabold text-gray-900">
             Lifetime Membership
           </h3>
@@ -77,7 +77,7 @@ export default function Pricing() {
             ))}
           </ul>
         </div>
-        <div className="bg-gray-25 md:bg-gray-100 flex items-center justify-center flex-col p-8 xl:p-12 min-w-333">
+        <div className="bg-gray-25 md:bg-gray-100 flex items-center justify-center flex-col px-6 py-12 md:px-6 md:py-12 lg:p-12 xl:p-12 min-w-333">
           <p className="text-lg leading-7 font-medium text-gray-900 font-sans mb-4">
             Pay once, own it forever
           </p>

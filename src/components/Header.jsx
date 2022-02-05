@@ -5,10 +5,10 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline"
 import logo from "../logo.svg"
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Products", href: "#", current: true },
+  { name: "Features", href: "#", current: false },
+  { name: "Marketplace", href: "#", current: false },
+  { name: "Company", href: "#", current: false },
 ]
 
 function classNames(...classes) {
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-white">
+    <Disclosure as="nav" className="bg-white fixed w-full z-50 top-0">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-6 md:px-16 md:pb-1 xl:px-5">

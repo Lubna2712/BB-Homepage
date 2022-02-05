@@ -138,7 +138,7 @@ function Menu({ title, list, index }) {
 export default function Footer() {
   return (
     <footer className="footerWrapper bg-gray-900">
-      <div className="mx-auto px-4 sm:px-0 ">
+      <div className="mx-auto px-2 md:px-2 lg:px-4 sm:px-0 ">
         <div className="grid grid-cols-2 md:grid-cols-6 col-gap-8 pb-12 row-gap-8">
           <Fragment>
             <div className="col-span-2">

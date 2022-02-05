@@ -4,16 +4,16 @@ import heroImage from "../images/hero.png"
 export default function Hero() {
   return (
     <div className="relative max-w-full overflow-hidden">
-      <section className="heroWrapper bg-white md:py-12 lg:py-32 flex container mx-auto px-4 md:px-4 lg:px-6 xl:px-6 md:overflow-hidden items-center">
-        <div className="max-w-2xl lg:max-w-4xl xl:max-w-full flex md:items-center container mx-auto md:justify-between flex-col-reverse md:flex-row gap-0 lg:gap-4 xl:gap-8">
-          <div className="heroTextContainer md:w-3/6 md:px-0 pt-12 md:pt-0 pb-16 sm:pb-0">
-            <h2 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-9 lg:leading-10 xl:leading-12 text-gray-900 lg:h-24 xl:h-32  lg:flex lg:flex-col lg:justify-between">
+      <section className="heroWrapper bg-white pt-20 md:py-52 lg:pt-52 lg:pb-20 xl:pt-52 xl:pb-32 flex  mx-auto md:overflow-hidden">
+        <div className="max-w-7xl flex md:items-center container mx-auto md:justify-between flex-col-reverse md:flex-row px-0 md:px-0 lg:px-16 xl:px-6">
+          <div className="heroTextContainer md:w-3/6 px-4 md:px-4 lg:px-0 xl:px-0 pt-12 md:pt-0 pb-16 sm:pb-0">
+            <h2 className="text-4xl text-47 xl:text-6xl font-extrabold tracking-tight lg:tracking-tighter leading-9 lg:leading-10 xl:leading-12 text-gray-900 lg:flex lg:flex-col lg:justify-between">
               Data to enrich your
-              <span className="text-transparent clip-text gradient ml-2">
+              <span className="text-transparent clip-text gradient block tracking-tight">
                 online business
               </span>
             </h2>
-            <p className="mt-4 md:mt-5 text-lg md:text-xl lg:text-lg pr-5 lg:pr-16 xl:pr-32 font-sans font-normal leading-7 text-gray-500">
+            <p className="mt-4 md:mt-5 text-lg md:text-xl lg:text-lg pr-5 lg:pr-16 xl:pr-20 font-sans font-normal leading-7 text-gray-500">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
               lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
               fugiat aliqua ad ad non deserunt sunt.
@@ -48,8 +48,12 @@ export default function Hero() {
               .
             </p>
           </div>
-          <div className="flex items-center justify-center relative md:w-3/6 z-10 md:pl-6 xl:pr-48 xl:pl-0">
-            <img className="w-full" src={heroImage} alt="Online Business" />
+          <div className="flex items-center justify-center relative md:w-3/6 z-10 md:pl-6 xl:pl-0">
+            <img
+              className="lg:max-w-sm xl:max-w-md"
+              src={heroImage}
+              alt="Online Business"
+            />
           </div>
         </div>
       </section>

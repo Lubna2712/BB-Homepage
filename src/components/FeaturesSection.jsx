@@ -48,7 +48,7 @@ function Card({ image, horizontal, title, desc }) {
     <div
       className={classNames(
         horizontal
-          ? "flex sm:space-x-10 sm:col-span-2 flex-col-reverse  sm:flex-row"
+          ? "flex sm:space-x-10 sm:col-span-2 flex-col  sm:flex-row"
           : "grid",
         "p-8 bg-white rounded-xl"
       )}
@@ -121,7 +121,7 @@ export default function Features() {
               desc={item.desc}
             ></Card>
           ))}
-          <div className="px-8 py-7 bg-transparent flex items-center flex-col-reverse sm:flex-col justify-center">
+          <div className="px-8 py-7 bg-transparent flex items-center flex-col sm:flex-col justify-center">
             <img
               src="updates.svg"
               alt="update"

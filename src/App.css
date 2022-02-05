@@ -2,19 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 .clip-text {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
 .gradient {
   background-image: linear-gradient(
     135deg,
@@ -57,7 +58,11 @@ body {
     rgba(255, 255, 255, 1) 100%
   );
 }
-
+@media screen and (max-width: 768px) {
+  .min-w-333 {
+    min-width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .heroWrapper:after {
     content: "";
@@ -108,15 +113,16 @@ body {
   .footerWrapper > div {
     max-width: 42rem;
   }
-  .min-w-333 {
-    min-width: 100%;
-  }
 }
 @media screen and (min-width: 1024px) {
   .heroWrapper:after {
     width: 398px;
     height: 413px;
     right: 0px;
+    top: 59%;
+  }
+  .heroWrapper .text-47 {
+    font-size: 47px !important;
   }
   .statusWrapper:after {
     background-repeat: repeat;
@@ -134,9 +140,13 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .heroWrapper:after {
-    width: 640px;
+    width: 45%;
     height: 546px;
     right: -140px;
+    top: 50%;
+  }
+  .heroWrapper .text-47 {
+    font-size: 60px !important;
   }
   .featureWrapper {
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
